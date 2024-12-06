@@ -65,31 +65,17 @@ This project focuses on developing a machine learning model to detect fraudulent
 
 ### 1. Data Preprocessing
 
-To preprocess the data, balance the classes using SMOTE, and scale the numerical features, run the `data_preprocessing.py` script:
-
-```bash
-python src/data_preprocessing.py
-```
-
+To preprocess the data, balance the classes using SMOTE, and scale the numerical features.
 This will output the preprocessed training and testing datasets.
 
 ### 2. Train the Model
 
-To train the Random Forest model, run the following script:
-
-```bash
-python src/model_training.py
-```
-
+To train the Random Forest model
 This script trains the model using the preprocessed data and saves the trained model for future use.
 
 ### 3. Evaluate the Model
 
-To evaluate the model, including metrics like precision, recall, F1-score, and ROC-AUC, run:
-
-```bash
-python src/evaluate_model.py
-```
+To evaluate the model, including metrics like precision, recall, F1-score, and ROC-AUC.
 
 This will output the evaluation metrics and confusion matrix.
 
