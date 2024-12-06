@@ -1,4 +1,4 @@
-```markdown
+
 # Credit Card Fraud Detection
 
 ## Overview
@@ -16,13 +16,13 @@ This project focuses on developing a machine learning model to detect fraudulent
 - [Model Training](#model-training)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Recommendations](#recommendations)
-- [License]
+- [License](#license)
 
 ---
 
 ## Project Structure
 
----
+```markdown
 ├── data/
 │   └── creditcard.csv             # The original dataset
 ├── Notebooks/
@@ -38,8 +38,7 @@ This project focuses on developing a machine learning model to detect fraudulent
 └── LICENSE                        # Project license
 
 
----
-
+```
 ## Installation
 
 1. Clone this repository to your local machine:
